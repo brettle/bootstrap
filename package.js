@@ -4,10 +4,10 @@
 /* global Package:true */
 
 Package.describe({
-  name: 'twbs:bootstrap',  // http://atmospherejs.com/twbs/bootstrap
-  summary: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
+  name: 'brettle:bootstrap-with-injected-meta-tags',  // http://atmospherejs.com/brettle/bootstrap
+  summary: 'twbs:bootstrap with required meta tags injected at top of head.',
   version: '3.3.5',
-  git: 'https://github.com/twbs/bootstrap.git'
+  git: 'https://github.com/brettle/bootstrap.git'
 });
 
 Package.onUse(function (api) {
